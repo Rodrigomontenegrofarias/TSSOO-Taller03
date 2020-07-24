@@ -27,25 +27,22 @@ Los parametros para ejecutar nuestro codigo son
 >
 
 
-#Solución:
+# Solución:
 
 La solución del problema planteada parte con separación de dos módulos que contienen los parámetros asociados al ejecutar nuestros archivo, el primer modulo seria de llenar el arreglo, el segundo de sumar el contenido, se agregó un gráfico que demuestra comparaciones en función del tiempo total de nuestra secuencias tanto serial como paralela, además de nuestra rapidez y eficiencia.
 
-#Primer módulo:
+# Primer módulo:
 
 
 En el módulo uno, se implementó un arreglo cuya funcionalidad es almacenar los datos aleatorios, para luego a través de OpenMP, almacenarlos de manera paralela con una cantidad  de hilos. La API se encarga de paralelizar el código, el cual llena el arreglo base con los datos aleatorios.
 
-#segundo módulo:
+# Segundo módulo:
 
 En este segundo módulo se ocupó directamente de forma paralela la API OpenMP para sumar los valores aleatorios almacenados en el arreglo.
 
 
-#Conclusión:
+# Conclusión:
 Para finalizar luego de implementar este programa mediante cada módulo, funcionamiento paralelo y serial, podemos realizar pruebas en base a desempeños de tiempo, rapidez, eficiencia.
 Luego de visualizar y analizar cada desempeño, nos damos cuenta que existen herramientas de programación que hacen los procesos mucho más rápido, en este caso un API de OpenMP, el cual fue difícil conocer los términos necesarios pero nos permite ahorrar código y ganar tiempo de eficiencia en nuestro caso.
-
-
-
 
 
