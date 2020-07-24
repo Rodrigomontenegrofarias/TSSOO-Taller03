@@ -8,9 +8,9 @@ Rodrigo Montenegro Farias - <rodrigo.montenegro@alumnos.uv.cl>
 El presente trabajo esta compuesto por un codigo en c++, y su informe, su objetico es implementar paralelismo con OpenMP.
 Una vez analizado el proceso de diseño presentado en el informe mencionado, se trabajó a través del lenguaje de programación c++, con el cual manejaremos threads para cumplir con el objetivo del taller. Es importante destacar que el objetivo de este taller es implementar un programa que llene un arreglo de números enteros y luego sume los datos. Cada tarea se debe realizar de forma paralela, implementadas con OpenMP.
 
-Además se agregó el código del taller anteiror, el cual se solicito la creación de hilos para cumplir una tarea similar, La funcion del codigo es incluir parametros, solo para comparar los tiempos de ejecución y llegar a una conclusión luego de analizar los tiempos.
+Además se agregó el código del taller02,  el cual se solicito la creación de hilos para cumplir una tarea similar, La funcion del codigo es incluir parametros, solo para comparar los tiempos de ejecución y llegar a una conclusión luego de analizar los tiempos.
 
-Los parametros para ejecutar nuestro codigo son:
+Los parametros para ejecutar nuestro codigo son
 > ./ sumArray -N  -t   -l   -L  [-h]
 >
 >Parámetros:
